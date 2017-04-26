@@ -1,0 +1,2 @@
+class Topi < ApplicationRecord
+end

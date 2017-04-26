@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @topi.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @topi.description %>
+</p>
+
+<%= link_to 'Edit', edit_topi_path(@topi) %> |
+<%= link_to 'Back', topis_path %>
